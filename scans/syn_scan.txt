@@ -1,0 +1,16 @@
+# Nmap 7.991 scan initiated Thu Oct  1 15:34:44 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sS -oN scans/syn_scan.txt 10.41.53.0/24
+Nmap scan report for 10.41.53.1
+Host is up (0.00021s latency).
+Not shown: 991 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1801/tcp open  msmq
+2103/tcp open  zephyr-clt
+2105/tcp open  eklogin
+2107/tcp open  msmq-mgmt
+5432/tcp open  postgresql
+
+# Nmap done at Thu Oct  1 15:34:56 2026 -- 256 IP addresses (1 host up) scanned in 12.39 seconds

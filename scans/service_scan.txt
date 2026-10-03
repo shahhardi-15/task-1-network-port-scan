@@ -1,0 +1,18 @@
+# Nmap 7.991 scan initiated Thu Oct  1 15:42:44 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV -p 80,135,139,445,1801,2103,2105,2107,5432 -oN scans/service_scan.txt 10.41.53.1
+Nmap scan report for 10.41.53.1
+Host is up (0.00045s latency).
+
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Microsoft IIS httpd 10.0
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+1801/tcp open  msmq?
+2103/tcp open  zephyr-clt?
+2105/tcp open  eklogin?
+2107/tcp open  msmq-mgmt?
+5432/tcp open  postgresql    PostgreSQL DB
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Oct  1 15:44:19 2026 -- 1 IP address (1 host up) scanned in 94.52 seconds
